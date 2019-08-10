@@ -94,7 +94,6 @@ html {
     background-color: #1abc9c;
     }
     
-      
   .features-list {
     list-style: none;
     padding: 0;
@@ -108,8 +107,6 @@ html {
     margin-right: 30px;
     padding: 0px;
   }
-  
-
   .features-list-item:nth-child(4n) {
   margin-right: 0;
 }
@@ -118,7 +115,6 @@ html {
     background-color: #0f0101;
     margin-bottom: 30px;
   }
-
   p {
     color: #ffffff;
     text-transform: uppercase;
