@@ -31,6 +31,10 @@ html {
     width: 1110px;
     margin: 0 auto;
   }
+
+  .page-header {
+    margin-top: 38px;
+    margin-bottom: 88px;
   
   .page-nav {
     padding: 38px 0;
