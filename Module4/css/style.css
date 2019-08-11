@@ -163,28 +163,28 @@ line-height: 26px;
 .paragraf-one::after {
 content: "";
 display: block;
-height: 3px;
+height: 4px;
 width: 136px;
 background-color: #4ec6ab;
 text-align: center;
 margin-top: 11px;
 }
 .paragraf-two {
-  /* Style for "Nam nec te" */
+
 color: #555252;
 font-family: "Open Sans";
 font-size: 14px;
 font-weight: 400;
 line-height: 26px;
 }
-/* Text style for "N, am nec" */
+
 .readmore {
-  /* Style for "Rectangle" */
+
 width: 160px;
 height: 52px;
 background-color: #4ec6ab;
 margin-bottom: 82px;
-/* Style for "Read More" */
+
 color: #ffffff;
 font-family: "Open Sans";
 font-size: 16px;
