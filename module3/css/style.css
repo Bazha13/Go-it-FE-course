@@ -2,130 +2,127 @@ html {
     box-sizing: border-box;
   }
   
-  *,
-  *::before,
-  *::after {
-    box-sizing: inherit;
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
   }
 
-  body {
-    font-family: "Playfair Display", "Arial", sans-serif;
-    color: #626262;
-    font-size: 14px;
-    line-height: 24px;
+body {
+  font-family: "Playfair Display", "Arial", sans-serif;
+  color: #626262;
+  font-size: 14px;
+  line-height: 24px;
   }
-  .conteiner {
-    width: 900px;
-    margin: 0 auto;
-    background-color: #ffffff;
-    font-size: 0;
+.conteiner {
+  width: 900px;
+  margin: 0 auto;
+  background-color: #ffffff;
+  font-size: 0;
   }
   
-  img {
-    display: block;
-    width: 100%;
-    height: auto;
+img {
+  display: block;
+  width: 100%;
+  height: auto;
   }
   
-  .site-navigetion {
-    margin: 0;
-    padding: 77px 0 0 77px;
-    font-size: 14px;
-    width: 100%;
-    list-style: none;
-    vertical-align: middle;
-    text-decoration: none;
-    text-transform: uppercase;
-    text-align: center;
+.site-navigation {
+  margin: 0;
+  padding: 77px 0 0 77px;
+  font-size: 14px;
+  width: 100%;
+  list-style: none;
+  text-decoration: none;
+  text-align: center;
   }
 
-  .site-navigetion li {
-    display: inline-block;
-    margin-right: 77px;
+.site-navigation li {
+  display: inline-block;
+  margin-right: 77px;
   }
 
-  .site-navigetion a {
-    display: block;
-    padding: 0;
-    text-transform: uppercase;
-    text-decoration: none;
-    font-size: 14px;
-    line-height: 24px;
-    color: #626262;
+.site-navigation a {
+  display: block;
+  padding: 0;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-size: 14px;
+  line-height: 24px;
+  color: #626262;
   }
 
-  .site-navigetion a:hover, .site-navigetion a:focus {
-    color: #03a9f4;
+.site-navigation a:hover, .site-navigetion a:focus {
+  color: #03a9f4;
   }
 
-  .page-section {
-      max-width: 900px;
-      margin: 0 auto;
-      padding: 0;
-      font-size: 0;
-      margin-left: 0;
+.page-section {
+  margin: 0 auto;
+  padding: 0;
+  font-size: 0;
+  margin-left: 0;
   }
-  .part{
-    margin-bottom: 132px;
-    width: 420px;
-    margin: 0;
-    padding: 0;
-    display: inline-block;
-    font-size: 14px;
-    margin-right: 60px;
-    vertical-align: top;
-    margin-left: 0;
-    padding-top: 90px;
-  }
-
-  .part:nth-child(2n) {
-    margin: 0px;
+.part{
+  margin-bottom: 132px;
+  width: 420px;
+  margin: 0;
+  padding: 0;
+  display: inline-block;
+  font-size: 14px;
+  margin-right: 60px;
+  vertical-align: top;
+  margin-left: 0;
+  padding-top: 90px;
   }
 
-  .text {
-    font-family: Ubuntu;
-    font-size: 14px;
-    line-height: 17px;
-    font-weight: 300;
-    font-style: normal;
-    font-stretch: normal;
-    letter-spacing: normal;
-    color: #b4ad9e;
-    text-transform: uppercase;
-    margin: 31px 0;
+.part:nth-child(2n) {
+  margin: 0px;
   }
-  .title {
 
-    font-family: PlayfairDisplay;
-    font-size: 30px;
-    font-weight: normal;
-    font-style: normal;
-    font-stretch: normal;
-    letter-spacing: normal;
-    color: #626262;
-    text-transform: normal;
-    margin: 32px 0;
-    line-height: 36px;
+.text {
+  font-family: Ubuntu;
+  font-size: 14px;
+  line-height: 17px;
+  font-weight: 300;
+  font-style: normal;
+  font-stretch: normal;
+  letter-spacing: normal;
+  color: #b4ad9e;
+  text-transform: uppercase;
+  margin: 31px 0;
   }
-  .text-2 {
-    font-family: PlayfairDisplay;
-    font-size: 14px;
-    font-weight: normal;
-    font-style: normal;
-    font-stretch: normal;
-    line-height: 24px;
-    letter-spacing: normal;
-    margin: 44px 0;
-    color: #626262;
+.title {
+  font-family: PlayfairDisplay;
+  font-size: 30px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  letter-spacing: normal;
+  color: #626262;
+  text-transform: normal;
+  margin: 32px 0;
+  line-height: 36px;
   }
-  .button_div {
-    margin-left: 358px;
-    margin-bottom: 70px;
-    margin-top: 54px;
+.text-2 {
+  font-family: PlayfairDisplay;
+  font-size: 14px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 24px;
+  letter-spacing: normal;
+  margin: 44px 0;
+  color: #626262;
+  }
+.button_div {
+  display: block;
+  margin: 0 auto;
+  padding-left: 358px;
+  margin-bottom: 70px;
+  margin-top: 54px;
 }
 
-.Load{
-  border: 0;
+.load{
   margin: 0;
   padding: 20px 34px 21px 34px;
   font-size: 20px;
