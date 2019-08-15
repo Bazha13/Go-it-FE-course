@@ -28,8 +28,7 @@ img {
 }
 /* My header*/
 .page-header {
- margin-top: 38px;
- margin-bottom: 88px;
+ padding: 38px;
 }
 /* site navigation */
 .site-logo {
@@ -40,7 +39,6 @@ img {
  float: right;
  margin:0;
  padding:0;
- text-align: middle;
  list-style: none;
 }
 .site-navigation li {
@@ -57,7 +55,6 @@ font-size: 14px;
 font-weight: 700;
 line-height: 11px;
 text-transform: uppercase;
-margin-bottom: 111px;
 }
 .site-navigation a:hover,
 .site-navigation a:focus {
@@ -71,10 +68,8 @@ color: #515151;
 font-family:'Roboto', sans-serif;
 font-size: 48px;
 font-weight: 900;
-line-height: 58px;
-margin-bottom: 98px;
 text-transform: uppercase;
-margin-top: 100px;
+padding: 55px 0 ;
 }
 .features-title::after {
 content: "";
@@ -85,8 +80,8 @@ margin-top: 27px;
 width: 166px;
 background-color: #1abc9c;
 }
-.feature {
-display:block;
+.features {
+display: block;
 }
 .features-list {
 padding: 0;
@@ -101,16 +96,14 @@ list-style: none;
 .features-list-product:not(:nth-child(4n+4)) {
   margin-right:30px;
   }
-.features-list img {
-  float: left;
-  max-width: 255px;
-  height: 320px;
-}
+
 .features-list.name {
  margin:0;
 }
 .features-list.name {
 float: left;
+font-weight: 700;
+font-family: "Roboto";
 margin-top: 0;
 padding: 6px 14px;
 background-color: #323232;
@@ -122,8 +115,10 @@ line-height:32px;
 }
 .features-list.price { 
 float: left;
+font-family: "Roboto";
+font-weight: 700;
 margin: 0;
-width:52px;
+width:55px;
 padding:6px 12px;
 background-color: #8c8c8c;
 color: #ffff;
@@ -145,7 +140,6 @@ list-style: none;
 .features-news-picture {
  float: left;
  max-width: 350px;
- height: 262px;
  margin-bottom: 80px;
 }
 .features-news-picture:not(:last-child) {
@@ -183,8 +177,6 @@ line-height: 26px;
 width: 160px;
 height: 52px;
 background-color: #4ec6ab;
-margin-bottom: 82px;
-
 color: #ffffff;
 font-family: "Open Sans";
 font-size: 16px;
