@@ -71,7 +71,7 @@ color: #1abc9c;
 .slider {
   position: relative;
   margin:0 auto;
-  width: 1170px;
+  width: 1600px;
   height: 600px;
 }
 
@@ -81,8 +81,7 @@ display: block;
 height: 600px;
 background-repeat: no-repeat;
 background-position: center;
-background-size: cover;
-background-color: #000002;
+object-fit: cover;
 margin-bottom: 95px;
 }
 .slider-ctrl {
@@ -106,14 +105,14 @@ opacity: 0.65;
 opacity: 1;
 }
 .slider-ctrl-prev {
-left: 30px;
+left: 202px;
 background-repeat: no-repeat;
 background-image: url(../img/icons/prev.png);
 background-position: center;
 z-index: 1;
 }
 .slider-ctrl-next {
-right: 30px;
+right: 288px;
 background-repeat: no-repeat;
 background-image: url(../img/icons/next.png);
 background-position: center;
@@ -123,23 +122,23 @@ z-index: 1;
 margin: 0;
 padding: 0;
 position: absolute;
-top: 50%;
-left:56%;
+top: 44%;
+left:50%;
 transform: translate(-50%,-50%);
 /* Style for "AFFORDABLE" */
 width: 800px;
+font-size: 60px;
+font-weight: 900;
 line-height: 82px;
 color: #ffffff;
 font-family: "Roboto", sans-serif;
-font-size: 60px;
-font-weight: 900;
 text-transform: uppercase;
 }
 .slider-text {
 /* Text style for "PARIS TOUR" */
  position: absolute;
- top: 60%;
- left: 56%;
+ top: 54%;
+ left: 50%;
  transform: translate(-50%,-50%);
  padding: 0;
  margin: 0;
@@ -163,7 +162,7 @@ font-weight: 900;
 line-height: 58x;
 text-transform: uppercase;
 text-align: center;
-margin-top: 0;
+margin-top: 100px;
 margin-bottom: 80px;
 }
 .new-collection-title::after{
@@ -244,7 +243,7 @@ position: absolute;
 top: 10px;
 left: 10px;
 opacity: 0;
-background-color:#929e9e;
+background-color:#676767;
 width: 235px;
 height: 262px;
 }
@@ -258,7 +257,6 @@ height: 50px;
 background-repeat: no-repeat;
 background-position: center;
 border-width: 1px;
-border-color: #ffffff;
 cursor: pointer;
 margin-top: 80px;
 margin-left: 35px;
@@ -298,28 +296,27 @@ cursor: pointer;
 opacity: 1;  
 background-color:#1abc9c;
 }
+
 .button-cart {
-background-image:url(../img/icons/cart.png); 
-opacity: 1;
-width:166px;
-height: 50px;
-background-color: #465b57;
-background-repeat: no-repeat;
-background-position: 10px;
-border-width: 1px;
-border: solid;
-border-width: 1px;
-border-color: #ffffff;
-cursor: pointer;
-font-family: "Open Sans";
-font-size: 14px;
-line-height: 32px;
-text-transform: uppercase; 
-margin-left: 35px;
-color: #ffffff;
-padding-left: 30px;
-vertical-align: middle;
-}
+  background-image:url(../img/icons/cart.png); 
+  width:166px;
+  height: 50px;
+  background-color: #323232;
+  background-repeat: no-repeat;
+  background-position: 10px;
+  border-width: 1px;
+  border: solid;
+  border-width: 1px;
+  border-color: #ffffff;
+  cursor: pointer;
+  font-size: 14px;
+  font-family: "Open Sans";
+  text-transform: uppercase; 
+  margin-left: 35px;
+  color: #ffffff;
+  padding-left: 30px;
+  vertical-align: middle;
+ }
 
 .footer {
 margin: 0 auto;
