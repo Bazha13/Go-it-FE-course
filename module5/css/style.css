@@ -76,6 +76,20 @@ margin:0 auto;
 width: 1600px;
 height: 600px;
 }
+.banner::before {
+position: absolute;
+content: "";
+display: block;
+width: 100%;
+height: 100%;
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center;
+background-image: url(../img/baner/banner.png);
+z-index: 0;
+top: 0;
+left: 0;
+}
 
  .banner::after {
   position: absolute;
