@@ -73,7 +73,6 @@ main {
 .banner {
 position: relative;
 margin:0 auto;
-width: 1600px;
 height: 600px;
 }
 .banner::before {
