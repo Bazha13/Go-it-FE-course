@@ -276,6 +276,10 @@ html {
  .team-list-img:hover {
   transform: translate(-10px,-10px);
  }
+  .social-icons:hover{
+    background-color: #95e1d3
+  }
+ }
  .team-list-image {
   display: block;
   object-fit: cover;
