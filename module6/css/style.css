@@ -228,7 +228,10 @@ html {
 }
 
 .team-list-social-icons {
-  position: absolute;
+ left: 50%;
+ top: 50%;
+ transform: translate(-50%, -50%);
+ position: absolute;
  display: flex;
  list-style: none;
  padding: 0;
@@ -236,14 +239,14 @@ html {
  height: 56px;
  background-color: #fce38a;
  cursor: pointer;
- top: 35%;
- margin-left: 70px;
  justify-content: space-between;
  transition: 0.2s linear;
  z-index: 4;
 }
 
 .social-icons {
+  display: flex;
+  justify-content: space-between;
   width: 56px;
   height: 56px;
   background-repeat: no-repeat;
@@ -288,6 +291,9 @@ html {
  }
 
  .team-list-img {
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
   position: relative;
   width: 380px;
   height: 470px;
@@ -384,8 +390,14 @@ html {
    background-color: #95e1d3;
    color: #ffffff;
    padding: 12px 30px;
-   font-family: 'Monserrat';
    font-size: 14px;
-   font-weight: 700;
+   font-weight: bold;
+   font-family: "Montserrat";
    cursor: pointer;
   }
+
+  
+  
+
+  
+  
