@@ -224,8 +224,14 @@ html {
 }
 
 .team-list-img {
-  opacity: 1;
+  opacity: 0;
 }
+
+.team-list-image {
+  display: block;
+  object-fit: cover;
+  transition: 200ms linear;
+ }
 
 .team-list-social-icons {
  left: 50%;
@@ -278,18 +284,13 @@ html {
  }
  .team-list-img:hover {
   transform: translate(-10px,-10px);
+  opacity: 1;
  }
   .social-icons:hover{
     background-color: #95e1d3
   }
- }
- .team-list-image {
-  display: block;
-  object-fit: cover;
-  transition: 200ms linear,
-  transform 200ms linear;
- }
-
+ 
+ 
  .team-list-img {
   display: flex;
   justify-content: space-between;
@@ -299,6 +300,7 @@ html {
   height: 470px;
   transform: translate(0, 0);
   transition: 0.2s linear;
+ 
  }
  .team-list-img::before {
   content: "";
