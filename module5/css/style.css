@@ -26,6 +26,10 @@ img {
   content: '';
   clear: both;
 }
+
+.basic {
+background-color: #eaf0fd
+}
 /* My header*/
 .page-header {
   margin-top: 38px;
@@ -65,17 +69,12 @@ color: #1abc9c;
 }
 /* site navigation the end*/
 /* slider */
-
-main {
-  background-color: #e9f0fd;
-}
-
-.banner {
-position: relative;
+.slider {
 margin:0 auto;
-height: 600px;
+min-height: 600px;
+position: relative;
 }
-.banner::before {
+.slider::before {
 position: absolute;
 content: "";
 display: block;
@@ -89,101 +88,83 @@ z-index: 0;
 top: 0;
 left: 0;
 }
+.slider::after {
+position: absolute;
+content: "";
+display: block;
+width: 100%;
+height: 100%;
+background: rgb(0, 0,2,0.52);
+z-index: 0;
+top: 0;
+left: 0;
+}
 
- .banner::after {
-  position: absolute;
-  content: "";
-  display: block;
-  width: 100%;
-  height: 100%;
-  background: rgb(0, 0,2,0.52);
-  z-index: 0;
-  top: 0;
-  left: 0;
- }
+.banner-slider {
+position: relative;
+padding: 200px 0px; 
+margin: 0 px;
+z-index: 1;
+}
+.banner-button {
+display: inline-block;
+position: absolute;
+width: 104px;
+height: 104px;
+padding: 0;
+margin: 0;
+margin-left: 0;
+margin-right: 0;
+top: 56%;
+transform: translateY(-50%);
+border: none;
+background-color: #54a08e;
+font-weight: 700;
+cursor: pointer;
+opacity: 0.65;
+}
+.banner-button:hover {
+opacity: 1;
+}
+.banner-button-prev {
+left: 90px;
+background-repeat: no-repeat;
+background-image: url(../img/icons/prev.png);
+background-position: center;
+z-index: 1;
+}
+.banner-button-next {
+right: 90px;
+background-repeat: no-repeat;
+background-image: url(../img/icons/next.png);
+background-position: center;
+z-index: 1;
+}
+.banner-title {
+margin: 0;
+padding: 0;
+line-height: 82px;
+color: #ffffff;
+font-family: "Roboto", sans-serif;
+font-size: 60px;
+font-weight: 900;
+text-transform: uppercase;
+transform: translate(30%);
+}
+.banner-text {
+ padding: 0;
+ margin: 0;
+ font-family: "Roboto", sans-serif;
+ font-size: 24px;
+ line-height: 54px;
+ font-weight: 300;
+ text-transform: uppercase;
+ letter-spacing: -0.48px;
+ color: #ffffff;
+ transform: translate(30%);
+}
 
-.banner-img {
-  position: relative;
-  display: block;
-  height: 600px;
-  background-repeat: no-repeat;
-  background-position: center;
-  object-fit: cover;
-  margin-bottom: 95px;
-  }
-  .banner-button {
-  display: inline-block;
-  position: absolute;
-  width: 104px;
-  height: 104px;
-  padding: 0;
-  margin: 0;
-  margin-left: 0;
-  margin-right: 0;
-  top: 50%;
-  transform: translateY(-50%);
-  border: none;
-  background-color: #54a08e;
-  font-weight: 700;
-  cursor: pointer;
-  opacity: 0.65;
-  }
-  .banner-button:hover {
-  opacity: 1;
-  }
-  .banner-button-prev {
-  left: 202px;
-  background-repeat: no-repeat;
-  background-image: url(../img/icons/prev.png);
-  background-position: center;
-  z-index: 1;
-  }
-  .banner-button-next {
-  right: 288px;
-  background-repeat: no-repeat;
-  background-image: url(../img/icons/next.png);
-  background-position: center;
-  z-index: 1;
-  }
-  .banner-title {
-  margin: 0;
-  padding: 0;
-  position: absolute;
-  top: 44%;
-  left:50%;
-  transform: translate(-50%,-50%);
-  /* Style for "AFFORDABLE" */
-  width: 800px;
-  font-size: 60px;
-  font-weight: 900;
-  line-height: 82px;
-  color: #ffffff;
-  font-family: "Roboto", sans-serif;
-  text-transform: uppercase;
-  z-index: 1;
-  }
-  .banner-text {
-  /* Text style for "PARIS TOUR" */
-   position: absolute;
-   top: 54%;
-   left: 50%;
-   transform: translate(-50%,-50%);
-   padding: 0;
-   margin: 0;
-   width: 800px;
-   font-family: "Roboto", sans-serif;
-   font-size: 24px;
-   line-height: 54px;
-   font-weight: 300;
-   text-transform: uppercase;
-   letter-spacing: -0.48px;
-   color: #ffffff;
-   z-index: 1;
-  }
-/* slider end */
-/* new collection */
 .new-collection-title {
-/* Style for "NEW COLLEC" */
 color: #515151;
 font-family: "Roboto", sans-serif;
 font-size: 48px;
