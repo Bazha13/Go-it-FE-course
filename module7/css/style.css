@@ -75,13 +75,14 @@ img {
  align-items: center;
  font-family: 'Montserrat', 'Arial', sans-serif;
 } 
-.site-logo {
+.page-logo {
  display: flex;
  margin: 0;
+ padding: 0;
  text-decoration: none;
 } 
 /* Style for "golden" */
-.picture-logo {
+.logo {
  width: 79px;
  height: 28px;
  color: #fed136;
@@ -93,16 +94,17 @@ img {
  text-transform: capitalize;
  vertical-align: middle;
 }
-.site-navigation {
+.page-navigation {
  display: flex;
  margin: 0;
+ padding: 0;
  list-style: none;
  justify-content: space-between;
  width: 490px;
  align-items: center;
  text-transform: uppercase;
 }
-.site-navigation a {
+.page-navigation a {
  text-decoration: none;
  color: #222222;
  font-size: 14px;
@@ -112,16 +114,15 @@ img {
  line-height: 17px;
  font-style: normal;
 }
-.site-navigation a:hover,
-.site-navigation a :focus {
+.page-navigation a:hover,
+.page-navigation a :focus {
   color: #fed136;
 }
-/* my header end */
-/* service start */
-.service {
+
+.page-service {
  margin-top: 124px;
 }
-.services-title {
+.page-services-title {
  color: #222222;
  font-size: 40px;
  font-weight: 700;
@@ -132,7 +133,7 @@ img {
  font-family: 'Montserrat', sans-serif;
  margin-bottom: 10px;
 }
-.title2 {
+.page-services-title2 {
  color:#929292;;
  font-size: 16px;
  font-weight: 400;
@@ -144,7 +145,7 @@ img {
  margin-bottom: 80px;
  font-family: 'Goudy Bookletter 1911', 'Arial', sans-serif;
 }
-.service-list {
+.page-service-list {
  display: flex;
  justify-content: space-between;
  margin: 0;
@@ -152,11 +153,11 @@ img {
  list-style: none;
  flex-wrap: wrap;
 }
-.service-icon { 
+.page-service-icon { 
   width: 300px;
   align-items: center;  
 }
-.service-icon::before {
+.page-service-icon::before {
   content: "";
   display: block;
   height: 70px;
@@ -177,7 +178,7 @@ img {
 .dd::before {
   background-image: url(../img/Servis/dd.png);
 }
-.list-title {
+.page-list-title {
   padding: 0;
   margin: 0;
   margin-top: 28px;
@@ -190,7 +191,7 @@ img {
   font-family: 'Montserrat', 'Arial', sans-serif;
   margin-bottom: 18px;
 }
-.list-text {
+.page-list-text {
   margin: 0 auto;
   color: #777777;
   font-size: 14px;
@@ -201,8 +202,8 @@ img {
   padding-right: 10px;
   text-align: center;
 }
-/* section contact start */
-.contact {
+
+.page-contact {
   background-color: #222222;
   padding-top: 110px;
   height: 676px;
@@ -211,8 +212,7 @@ img {
   background-position: right bottom;
   width: 100%;
 }
-.contact-title1 {
-  /* Style for "Contact us" */
+.page-contact-title {
   color: #ffffff;
   font-family: Montserrat, sans-serif;;
   font-size: 40px;
@@ -222,7 +222,7 @@ img {
   padding: 0;
   margin: 0;
 }
-.contact-title2 {
+.page-contact-text {
   margin: 0;
   padding: 0;
   color: #777777;
@@ -232,7 +232,7 @@ img {
   font-family: 'Goudy Bookletter 1911', 'Arial', sans-serif;
   margin-bottom: 75px;
 }
-.contact-form div {
+.page-contact-form div {
   display: flex;
   flex-wrap: wrap;
   height: 210px;
