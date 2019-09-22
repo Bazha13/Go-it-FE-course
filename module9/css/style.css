@@ -227,6 +227,7 @@ input[type="”radio”"].visually-hidden {
      font-weight: 700;
      margin: 0 auto;
      display: block;
+     margin-bottom: 30px;
 }
 @media (min-width: 768px) {
     .page-header {
